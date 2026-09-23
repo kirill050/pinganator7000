@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pinganator</string>
+    <string name="settings_title">Хосты</string>
+    <string name="add_host">Добавить хост</string>
+    <string name="delete">Удалить</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отмена</string>
+    <string name="hint_label">Название (напр.: Мой сервер)</string>
+    <string name="hint_url">URL (напр.: https://example.com)</string>
+    <string name="loading">Загрузка…</string>
+    <string name="status_fail">✗</string>
+    <string name="updated_at">Обновлено: %s</string>
+    <string name="status_paused">⏸ Пауза</string>
+    <string name="section_builtin">Встроенные хосты</string>
+    <string name="section_custom">Мои хосты</string>
+    <string name="pinging_active">Пингование активно</string>
+    <string name="pinging_paused">Пингование на паузе</string>
+    <string name="resume">Возобновить</string>
+    <string name="pause">Пауза</string>
+    <string name="ping_interval">Частота пинга</string>
+    <string name="restore_defaults">Сбросить встроенные</string>
+    <string name="host_disabled">отключён</string>
+</resources>

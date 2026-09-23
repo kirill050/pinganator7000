@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="2dp">
+
+    <!-- Row 1: cells 1-4 -->
+    <LinearLayout
+        android:id="@+id/mini_row_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout android:id="@+id/mini_cell_1"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center">
+            <ImageView android:id="@+id/mini_ind_1"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_1"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_1"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/mini_cell_2"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center">
+            <ImageView android:id="@+id/mini_ind_2"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_2"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_2"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/mini_cell_3"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center"
+            android:visibility="gone">
+            <ImageView android:id="@+id/mini_ind_3"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_3"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_3"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/mini_cell_4"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center"
+            android:visibility="gone">
+            <ImageView android:id="@+id/mini_ind_4"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_4"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_4"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Row 2: cells 5-8, hidden by default -->
+    <LinearLayout
+        android:id="@+id/mini_row_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout android:id="@+id/mini_cell_5"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center"
+            android:visibility="gone">
+            <ImageView android:id="@+id/mini_ind_5"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_5"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_5"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/mini_cell_6"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center"
+            android:visibility="gone">
+            <ImageView android:id="@+id/mini_ind_6"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_6"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_6"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/mini_cell_7"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center"
+            android:visibility="gone">
+            <ImageView android:id="@+id/mini_ind_7"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_7"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_7"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/mini_cell_8"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="center"
+            android:visibility="gone">
+            <ImageView android:id="@+id/mini_ind_8"
+                android:layout_width="match_parent" android:layout_height="22dp"
+                android:scaleType="fitCenter" android:contentDescription="@null"
+                android:src="@drawable/ic_status_unknown"/>
+            <TextView android:id="@+id/mini_lbl_8"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="7sp" android:textColor="#DDDDDD"
+                android:gravity="center" android:singleLine="true"
+                android:layout_marginTop="1dp"/>
+            <TextView android:id="@+id/mini_sub_8"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="6sp" android:textColor="#888888"
+                android:gravity="center" android:singleLine="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
